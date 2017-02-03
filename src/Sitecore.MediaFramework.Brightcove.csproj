@@ -43,8 +43,8 @@
       <HintPath>packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="RestSharp, Version=104.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\RestSharp.104.2.0\lib\net4\RestSharp.dll</HintPath>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\RestSharp.105.2.3\lib\net45\RestSharp.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -69,9 +69,8 @@
       <HintPath>bin\Sitecore.MediaFramework.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.RestSharp, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Sitecore.RestSharp.1.1.70\lib\net45\Sitecore.RestSharp.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Sitecore.RestSharp">
+      <HintPath>..\references\Sitecore.RestSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
